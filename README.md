@@ -2,7 +2,8 @@
 
 Extended version of [OpenHarness](https://github.com/HKUDS/OpenHarness) — an open-source Python port of Claude Code, providing a full Agent Harness infrastructure (tools, memory, permissions, multi-agent coordination) for LLMs. Original project by novix-science.
 
-![OpenHarness in action]<img width="760" height="242" alt="image" src="https://github.com/user-attachments/assets/2ee0a32a-5b26-4180-bb47-d1ce33e84ee9" />
+[OpenHarness in action]
+<img width="760" height="242" alt="image" src="https://github.com/user-attachments/assets/2ee0a32a-5b26-4180-bb47-d1ce33e84ee9" />
 
 <!-- Replace docs/screenshot.png with your actual screenshot path -->
 
