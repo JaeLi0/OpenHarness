@@ -38,3 +38,9 @@ uv.lock
 
 # Personal study notes
 项目介绍/
+
+# Claude Code local settings
+.claude/
+
+# Baidu Cloud temp files
+*.baiduyun.p.downloading
