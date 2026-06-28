@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv --version)",
+      "Bash(py --list)",
+      "Bash(where python *)",
+      "Bash(uv python *)",
+      "Bash(uv sync *)",
+      "Bash(npm ci *)",
+      "Bash(npm install *)",
+      "Bash(uv run *)"
+    ]
+  }
+}
