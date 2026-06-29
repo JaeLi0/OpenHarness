@@ -16,6 +16,8 @@
 
 </div>
 
+![OpenHarness in action](docs/screenshot.png)
+
 ---
 
 ## 📖 项目简介
