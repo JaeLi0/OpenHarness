@@ -16,7 +16,7 @@
 
 </div>
 
-![OpenHarness in action](docs/screenshot.png)
+<img width="760" height="232" alt="image" src="https://github.com/user-attachments/assets/ede3577b-9a17-4f6f-b898-4f99d9e91b2a" />
 
 ---
 
