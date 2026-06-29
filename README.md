@@ -150,7 +150,7 @@ This repo makes **5 targeted fixes and extensions** on top of the original OpenH
 
 **Problem:** YAML frontmatter in memory files was parsed by manually splitting on `---` delimiters, breaking on block scalars (`>`, `|`) and quoted values. Memory search only matched metadata fields (name/description/type) — body content was invisible to search. Chinese queries returned no results because the tokenizer only handled ASCII.
 
-**Fix:** Replaced manual parser with `yaml.safe_load()` for full YAML spec compliance. Extended the search scorer to include body content (metadata match weight 2×, body match weight 1×). Added Han character recognition (`一-鿿`) in `_tokenize()` so each CJK character is treated as an independent search token.
+**Fix:** Replaced manual parser with `yaml.safe_load()` for full YAML spec compliance. Extended the search scorer to include body content (metadata match weight 2×, body match weight 1×). Added Han character recognition in `_tokenize()` so each CJK character is treated as an independent search token.
 
 **Result:** Memory files with complex YAML structures parse correctly. Chinese queries now produce meaningful results; body-text search significantly expands recall coverage.
 
